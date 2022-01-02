@@ -4,7 +4,7 @@ A simple Docker repository to compile and make available the [Argon2](https://gi
 
 ## Docker Configuration
 
-The `latest` image builds the [20161029](https://github.com/P-H-C/phc-winner-argon2/releases/tag/20161029) release of the P-H-C Winner Argon2 reference C implementation.
+The `latest` image builds the [20190702](https://github.com/P-H-C/phc-winner-argon2/releases/tag/20190702) release of the P-H-C Winner Argon2 reference C implementation.
 
 ## Usage
 
@@ -14,7 +14,7 @@ To get up and running, simply pull the image from Docker Hub:
 $ docker pull abstractvector/argon2
 ```
 
-By default, running the container will launch you into an `sh` shell, from which you can call `argon2` or `bench`.
+By default, running the container will allow you to run `argon2` or `bench` and execute a typical shell with `sh`.
 
 ```
 $ docker run -it --rm abstractvector/argon2
